@@ -1,14 +1,18 @@
 <script>
-    function testLogicalOr(val) {
+    function testElse(val) {
+  let result = "";
   // Only change code below this line
 
-  if (val<10||val>20) {
-    return "Outside";
+  if (val > 5) {
+    result = "Bigger than 5";
   }
-
-  // Only change code above this line
-  return "Inside";
+else{
+  result="5 or Smaller";
 }
 
-testLogicalOr(15);
+  // Only change code above this line
+  return result;
+}
+
+testElse(4);
 </script>
